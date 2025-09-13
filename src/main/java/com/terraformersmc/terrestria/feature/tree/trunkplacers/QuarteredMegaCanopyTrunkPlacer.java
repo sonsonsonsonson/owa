@@ -46,7 +46,7 @@ public class QuarteredMegaCanopyTrunkPlacer extends MegaTrunkPlacer {
 		BlockPos.Mutable currentPosition = pos.mutableCopy().move(Direction.UP, trunkHeight - 3);
 
 		// Place branches on each branch layer
-		for (int i = 0; i < branchLayers + 3; i++) {
+		for (int i = 0; i < branchLayers + 9; i++) {
 			// Place a branch in a random direction
 			Direction direction = Direction.Type.HORIZONTAL.random(random);
 
